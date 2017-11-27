@@ -50,4 +50,4 @@
       
       
 savepoint aa；设置保存点
-rollback aa;回滚到保存点
+rollback to aa;回滚到保存点
