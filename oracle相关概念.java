@@ -24,7 +24,7 @@
       
 小型数据库：access、foxbase      负载量小： 100人以内
 中型数据库：mysql、sql server、informix     负载，日访问量5000~15000
-大型数据库：sybase、orcale、db2   性能比较sybase < orcale < db2;  这几个数据库安全性很高，成本也很高
+大型数据库：sybase、oracle、db2   性能比较sybase < oracle < db2;  这几个数据库安全性很高，成本也很高
 
 用什么数据库：
   a.负载量多大，用户多大
