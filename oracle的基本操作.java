@@ -6,12 +6,11 @@
 5.select * from user_sys_privs;    //查看权限
 6.desc 表名；  //查看表结构
 
-
-
-
-
 select * from all_tables where owner='TEST'；  //查看当前用户下有几张表
 
 select * from all_tables where tablespace_name='TRAIN'; //查看某个表空间中有多少张表
 
 select * from all_tables where tablespace_name='TRAIN' and owner='TRAIN';  //查看某个表空间下,某个用户有多少表
+
+7.批量插入多条数据
+insert into 表名(列名,列名,...) （select 列名,列名,... from emp where empno=10）;
